@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<div class="register-page">
+		<head>
+			<meta charset="UTF-8"><link rel="SHORTCUT ICON" href="http://www.addic7ed.com/favicon.ico" /> 
+			<meta name="theme-color" content="#ffffff">
+			<title>Login Page</title>
+			<link rel="stylesheet" type="text/css" href="style.css">
+		</head>
+		
+		<body>
+			<h1>Welcome to the Login page</h1>
+			<div class="form">
+				<form action="Login.php" method="post" autocomplete="off">
+					<p>
+				    	<label for="Username">Username :</label>
+				    	<input type="text" name="Username" id="Username" required placeholder="Username" pattern=".{6,}">
+				    </p>
+
+				    <p>
+				    	<label for="Password">Password :</label>
+				        <input type="password" name="Password" id="Password" placeholder="Password" pattern="{8,}" required>
+				    </p>
+
+				    <button type="submit" value="Login">Login</button>
+				    <p class="message">Not registered? <a href="register.html">Create an account</a></p>
+				</form>
+			</div>
+		</body>
+	</div>	
+	
+</html>
